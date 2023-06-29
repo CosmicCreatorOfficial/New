@@ -29,3 +29,11 @@ nav {
     background-color: #ccc;
   }
   
+  .sec {
+    height:50cm;
+    width:fit-content;
+  }
+
+  #home {
+    background-color: aqua;
+  }
