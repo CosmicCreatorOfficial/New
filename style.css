@@ -2,7 +2,7 @@ nav {
     background-color: transparent;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0; /* Adjusted property */
     width: 100%;
   }
   
@@ -11,10 +11,11 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: right; /* Adjusted property */
   }
   
   nav ul li {
-    float: left;
+    display: inline-block;
   }
   
   nav ul li a {
